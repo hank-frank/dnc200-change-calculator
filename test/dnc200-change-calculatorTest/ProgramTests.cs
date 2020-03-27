@@ -103,3 +103,28 @@ namespace dnc200_change_calculatorTest
         }
     }
 }
+
+
+//[Fact]
+//public void GetChange_NoChangeDue()
+//{
+//  string[] expected = new string[] { "No change is due" };
+//  string actual = Program.GetChange(1m, 1m);
+//  Assert.Contains(expected, actual);
+//}
+
+//[Fact]
+//public void GetChange_MoneyOwed()
+//{
+//  string[] expected = new string[] { "You are still owed" };
+//  string actual = Program.GetChange(2m, 1m);
+//  Assert.Contains(expected, actual);
+//}
+
+//[Fact]
+//public void GetChange_ChangeDue()
+//{
+//  string[] expected = new string[] { "The total change due is" };
+//  string actual = Program.GetChange(1m, 2m);
+//  Assert.Contains(expected, actual);
+//}
